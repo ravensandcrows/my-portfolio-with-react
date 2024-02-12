@@ -14,10 +14,10 @@ function Nav({ currentPage }) {
         </li>
         {pages.map((Page) => (
           <li
-            // className={`mx-5 ${currentPage === `/${Page}` && 'navActive'}`}
+            className={`mx-5 ${currentPage === `/${Page}` && 'navActive'}`}
             key={Page}
           >
-            {/* <Link to={`/${Page}`}>{capitalizeFirstLetter(Page)}</Link> */}
+            <Link to={`/${Page}`}>{capitalizeFirstLetter(Page)}</Link>
           </li>
         ))}
       </ul>
