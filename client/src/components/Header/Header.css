@@ -48,3 +48,39 @@ header nav ul li:last-child{
     object-fit: cover;
     display: left;
 }
+
+/* Tablets - changes mostly font styling based on size of reader */
+@media screen and (max-width: 992px) {
+    h1{
+        font-size: 250%;
+    }
+    header nav ul{
+        font-size: 200%;
+    }
+}
+
+/* Large smartphones - ont styling based on size of reader */
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 250%;
+    }
+    header nav ul{
+        font-size: 200%;
+    }
+}
+  
+/* Small smartphones - ont styling based on size of reader */
+@media screen and (max-width: 576px) {
+      h1{
+        font-size: 150%;
+    }
+    header nav ul{
+        font-size: 100%;
+    }
+    
+    #profile{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
