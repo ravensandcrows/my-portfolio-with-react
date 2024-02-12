@@ -1,9 +1,0 @@
-footer{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #022c0a;
-    color: whitesmoke;
-    font-style: monospace;
-    font-size: 150%;
-    justify-content: center;
-}
