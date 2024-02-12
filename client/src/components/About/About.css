@@ -1,0 +1,16 @@
+/*h2 rules for whole page -hero set here*/
+h2{
+    font-family: cursive;
+    font-size: 300%;
+    color: #022c0a;
+    text-decoration: underline;
+    text-align: left;
+}
+
+/*paragraph styling for about*/
+#about p {
+    font-family: monospace;
+    text-justify: right;
+    line-height: 250%;
+    font-size: 150%;
+}
