@@ -35,10 +35,9 @@ header nav ul{
 /*display set*/
 header nav ul li {
     display:inline-block;
-}
-header nav ul li:last-child{
     margin-right: 25px;
 }
+
 
 /*circle set for photo, plus items to set bounds*/
 #profile{
