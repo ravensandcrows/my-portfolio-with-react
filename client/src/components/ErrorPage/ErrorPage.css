@@ -1,0 +1,15 @@
+h1 {
+    display: flex;
+    text-align: left;
+    font-family:cursive;
+    font-size: 300%;
+    margin-left: 1%;
+    background-color: #022c0a;
+    color: whitesmoke;
+}
+
+p{
+    font-size: 200%;
+    text-align: center;
+    color:#022c0a;
+}

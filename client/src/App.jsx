@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import ContactInfo from './components/ContactInfo/ContactInfo';
 import Footer from './components/Footer/Footer';
 import ContactMe from './components/ContactMe/ContactMe';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <ContactMe />
       <ContactInfo />
+      <ErrorPage />
       <Footer />
     </div>
   )
