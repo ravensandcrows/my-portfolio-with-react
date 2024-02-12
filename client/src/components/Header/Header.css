@@ -1,0 +1,50 @@
+/*Sets basis for headers colors*/
+a{
+    color:whitesmoke;
+}
+/*Sets basis for headers colors*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    background-color: #022c0a;
+}
+/*Font info set*/
+h1 {
+    display: inline-block;
+    text-align: left;
+    font-family:cursive;
+    font-size: 300%;
+    margin-left: 1%;
+}
+/*nav location set*/
+header nav{
+    margin-left: auto;
+    margin-top: auto;
+    color: whitesmoke;
+}
+
+/*text styling*/
+header nav ul{
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 250%; 
+}
+/*display set*/
+header nav ul li {
+    display:inline-block;
+}
+
+header nav ul li:last-child{
+    margin-right: 25px;
+}
+
+/*circle set for photo, plus items to set bounds*/
+#profile{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: left;
+}
