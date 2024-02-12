@@ -1,0 +1,427 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    color:whitesmoke;
+}
+/*Sets basis for headers colors*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    background-color: #022c0a;
+}
+/*Font info set*/
+h1 {
+    display: inline-block;
+    text-align: left;
+    font-family:cursive;
+    font-size: 300%;
+    margin-left: 1%;
+}
+/*nav location set*/
+header nav{
+    margin-left: auto;
+    margin-top: auto;
+    color: whitesmoke;
+}
+/*text styling*/
+header nav ul{
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 250%;
+    
+}
+/*display set*/
+header nav ul li {
+    display:inline-block;
+}
+header nav ul li:last-child{
+    margin-right: 25px;
+}
+
+/*circle set for photo, plus items to set bounds*/
+#profile{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: left;
+}
+/*background image + bounds set*/
+.hero{
+    display: flex;
+    flex-wrap:wrap;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('images/IMG_9395.JPG');
+    background-size: cover;
+    background-position: center;
+}
+/*text bounds are set and opacity*/
+.text-left{
+    padding-left: 15px;
+    background-color: #022c0a;
+    opacity: 80%;
+    position:absolute;
+    bottom: 0%;
+    right: 0%;
+}
+/*text rules for hero set*/
+.hero h2{
+    font-family: monospace;
+    color: white;
+    font-size: 300%;
+    margin-right: 10px;
+}
+/*h2 rules for whole page -hero set here*/
+h2{
+    font-family: cursive;
+    font-size: 300%;
+    color: #022c0a;
+    text-decoration: underline;
+    text-align: left;
+}
+/*paragraph styling for about*/
+#about p {
+    font-family: monospace;
+    text-justify: right;
+    line-height: 250%;
+    font-size: 150%;
+}
+/*Sets bounds and size of the larger work box*/
+#first-project{
+    display: flex;
+    flex-wrap:wrap;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image:url(images/travel-with-me.jpg);
+    color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    border: #022c0a;
+    border-style: solid;
+    border-width: 8px;
+
+}
+/*sets the grid, rows and colmuns for the other projects*/
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    color:whitesmoke;
+    width: 100%;
+    height: 300vh;
+    grid-row: 2;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 5px;
+    border: #022c0a;
+    border-style: solid;
+    border-width: 8px;
+}
+
+/*photos for projects*/
+
+#recipes-api{
+    background-image: url(images/recipies.webp);
+}
+#svg-logo{
+    background-image: url(images/svg-logo.jpg);
+}
+#quiz-game{
+    background-image: url(images/quiz-game.jpg);
+}
+#readme{
+    background-image: url(images/readme.jpg);
+}
+#employee-tracker{
+    background-image: url(images/employee-tracker.jpg);
+}
+#weather-dashboard{
+    background-image: url(images/weather-dashboard.jpg);
+}
+#workday-planner{
+    background-image: url(images/workday-planner.jpg);
+}
+#note-taker{
+    background-image: url(images/note-taker.jpg);
+}
+#pass-generator{
+    background-image: url(images/pass-gen.jpg);
+}
+#e-com{
+    background-image: url(images/e-com.jpg);
+}
+#sample{
+    background-image: url(images/sample.jpg);
+}
+#blog{
+    background-image: url(images/blog.jpg);
+}
+#regex{
+    background-image: url(images/regex.jpg);
+}
+#soc-api{
+    background-image: url(images/soc-api.jpg);
+}
+#txt-edit{
+    background-image: url(images/txt-edit.jpg);
+}
+#react{
+    background-image: url(images/react.jpg);
+}
+#book{
+    background-image: url(images/book.jpg);
+}
+#redux{
+    background-image: url(images/store.jpg);
+}
+#project-3{
+    background-image: url(images/coming-soon.jpg);
+}
+#coming-soon{
+    background-image: url(images/coming-soon.jpg);
+}
+/*positions the photos and sets their bounds*/
+.card{
+    flex-wrap: 1 0 200px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/*sets up the internal textboxes + fonts*/
+.text-box{
+    background-color: #022c0a;
+    opacity:80%;
+    padding-left: 5px;
+    padding-right: 5px;
+    position:absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.text-box h3{
+    font-family: cursive;
+    font-size:200%;
+}
+.text-box p{
+    font-family: monospace;
+    font-size: 200%;
+}  
+/*sets flexbox*/
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*sets styling rules for the list*/
+#contact ul{
+    list-style-type: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 150%;
+    text-align: center;
+}
+#contact ul li{
+    display:inline-block;
+}
+
+/*creates the boxes for the each dimension*/
+.card-contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #022c0a;
+    background-size: cover;
+    text-align: center;
+    width: 275px;
+}
+
+form {
+    width: 100%;
+    background-color: #022c0a;
+    color: whitesmoke;
+}
+
+input {
+    margin: 10px 0;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90%;
+    transition: box-shadow 0.2s;
+}
+
+input:focus {
+    border: 1px solid var(--secondary);
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+label {
+    margin-right: 40px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+textarea {
+    width: 90%;
+    height: 200px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 50px;
+}
+
+button {
+    background-color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #022c0a;
+    align-items: center;
+}
+
+button:hover {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+
+.errorBackground {
+    background-color: #022c0a;
+    color: whitesmoke;
+    text-align: center;
+}
+.errorP{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 150%;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #022c0a;
+    color: whitesmoke;
+    font-style: monospace;
+    font-size: 150%;
+    justify-content: center;
+}
+
+/* Tablets - changes mostly font styling based on size of reader */
+@media screen and (max-width: 992px) {
+    h1{
+        font-size: 250%;
+    }
+    header nav ul{
+        font-size: 200%;
+    }
+    .hero h2{
+        font-size: 250%;
+    }
+    h2 {
+        font-size: 250%;
+    }
+    #first-project{
+        height:750px;
+    }
+    .projects{
+        height:200vh;
+    }
+    .text-box h3{
+        font-size: 200%;
+    }
+    .text-box p{
+        font-size:150%;
+    }
+}
+
+/* Large smartphones - ont styling based on size of reader */
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 250%;
+    }
+    header nav ul{
+        font-size: 200%;
+    }
+    .hero h2{
+        font-size: 250%;
+    }
+    h2 {
+        font-size: 250%;
+    }
+    #first-project{
+        height:750px;
+    }
+    .projects{
+        height:200vh;
+    }
+    .text-box h3{
+        font-size: 200%;
+    }
+    .text-box p{
+        font-size:150%;
+    }
+}
+  
+/* Small smartphones - ont styling based on size of reader */
+@media screen and (max-width: 576px) {
+      h1{
+        font-size: 150%;
+    }
+    header nav ul{
+        font-size: 100%;
+    }
+    .hero h2{
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    #about p{
+        font-size: 100%;
+    }
+    #first-project{
+        height:350px;
+    }
+    .projects{
+        height:200vh;
+    }
+    .text-box h3{
+        font-size: 100%;
+    }
+    .text-box p{
+        font-size:50%;
+    }
+    #profile{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}

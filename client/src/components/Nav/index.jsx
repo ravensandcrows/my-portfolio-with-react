@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { capitalizeFirstLetter } from '../../utils/helpers';
+
 
 function Nav({ currentPage }) {
   const pages = ['portfolio', 'contact', 'resume'];

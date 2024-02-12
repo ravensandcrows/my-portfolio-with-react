@@ -1,5 +1,3 @@
-import './ContactInfo.css';
-
 function ContactInfo () {
     return (
         <section id="contact">
