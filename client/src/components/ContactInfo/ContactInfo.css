@@ -1,0 +1,36 @@
+a{
+    color: whitesmoke;
+}
+/*sets flexbox*/
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*sets styling rules for the list*/
+#contact ul{
+    list-style-type: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 150%;
+    text-align: center;
+}
+#contact ul li{
+    display:inline-block;
+}
+
+/*creates the boxes for the each dimension*/
+.card-contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #022c0a;
+    background-size: cover;
+    text-align: center;
+    width: 275px;
+}
+
+
+
+
+
