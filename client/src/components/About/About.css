@@ -14,3 +14,27 @@ h2{
     line-height: 250%;
     font-size: 150%;
 }
+
+/* Tablets - changes mostly font styling based on size of reader */
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 250%;
+    }
+}
+
+/* Large smartphones - ont styling based on size of reader */
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 250%;
+    }
+}
+  
+/* Small smartphones - ont styling based on size of reader */
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 150%;
+    }
+    #about p{
+        font-size: 100%;
+    }
+}

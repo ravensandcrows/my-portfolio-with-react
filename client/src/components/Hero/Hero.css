@@ -38,3 +38,24 @@
     background-size: cover;
     position: relative;
 }
+
+/* Tablets - changes mostly font styling based on size of reader */
+@media screen and (max-width: 992px) {
+    .hero h2{
+        font-size: 250%;
+    }
+}
+
+/* Large smartphones - ont styling based on size of reader */
+@media screen and (max-width: 768px) {
+    .hero h2{
+        font-size: 250%;
+    }
+}
+  
+/* Small smartphones - ont styling based on size of reader */
+@media screen and (max-width: 576px) {
+    .hero h2{
+        font-size: 150%;
+    }
+}
