@@ -35,7 +35,6 @@ header nav ul {
     list-style-type: none;
     font-family: monospace;
     font-size: 250%;
-
 }
 
 /*display set*/
@@ -219,8 +218,6 @@ h2 {
 
 form {
     width: 100%;
-    background-color: #022c0a;
-    color: whitesmoke;
 }
 
 input {
@@ -231,6 +228,8 @@ input {
     margin-right: 50px;
     width: 90%;
     transition: box-shadow 0.2s;
+    border-style: solid;
+    border-color: #022c0a;
 }
 
 input:focus {
@@ -242,12 +241,14 @@ label {
     margin-right: 40px;
     margin-left: 10px;
     font-size: 30px;
+    color: #022c0a;
 }
 
 textarea {
     width: 90%;
     height: 200px;
-    border: 3px solid #cccccc;
+    border-style: solid;
+    border-color: #022c0a;
     padding: 5px;
     margin-top: 10px;
     margin-right: 40px;
@@ -278,8 +279,6 @@ button:hover {
     color: whitesmoke;
     text-align: center;
     height: 100vh;
-
-
 }
 
 .errorP {
@@ -362,6 +361,12 @@ footer {
     font-style: monospace;
     font-size: 150%;
     justify-content: center;
+}
+
+.navActive {
+    color: var(--secondary);
+    cursor: default;
+    text-shadow: 3px 3px 15px rgb(250, 247, 250);
 }
 
 /* Tablets - changes mostly font styling based on size of reader */
