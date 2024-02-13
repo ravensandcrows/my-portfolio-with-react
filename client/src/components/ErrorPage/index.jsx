@@ -4,7 +4,6 @@ function ErrorPage () {
           <h1>Oh No!</h1>
           <p className="errorP">Sorry, something unexpected happened!</p>
           <p className="errorP"> Error Message Here!</p>
-          <br></br>
         </div>
     )
 }
