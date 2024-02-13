@@ -353,6 +353,26 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.my-2 {
+    margin-top: var(--spacing-two);
+    margin-bottom: var(--spacing-two);
+  }
+
+
+.my-5 {
+    margin-top: var(--spacing-five);
+    margin-bottom: var(--spacing-five);
+  }
+
+  ul.skills {
+    line-height: 2rem;
+  }
+  
+  ul.skills li {
+    list-style-type: circle;
+  }
+  
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -367,6 +387,17 @@ footer {
     color: var(--secondary);
     cursor: default;
     text-shadow: 3px 3px 15px rgb(250, 247, 250);
+}
+
+.black {
+    color:black;
+}
+
+.error-text{
+    font-size: 30px;
+    font-style: bold;
+    background-color: red;
+    text-align: center;
 }
 
 /* Tablets - changes mostly font styling based on size of reader */

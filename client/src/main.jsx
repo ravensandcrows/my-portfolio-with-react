@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
-import Error from './components/ErrorPage/index.jsx';
-import About from './components/About/index.jsx';
+import Error from './components/ErrorPage';
+import About from './components/About';
 import Portfolio from './components/Portfolio';
-import ContactMe from './components/ContactMe/index.jsx';
+import ContactMe from './components/ContactMe';
+import Resume from './components/Resume';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <ContactMe />,
+      },
+      {
+        path: 'resume',
+        element: <Resume />,
       },
     ],
   },
