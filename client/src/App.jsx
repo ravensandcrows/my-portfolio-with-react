@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Page from "./components/Page";
+import ContactInfo from './components/ContactInfo'
 import { useLocation } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Page currentPage={currentPage} />
       </main>
+      <ContactInfo />
       <Footer />
     </div>
   );

@@ -50,12 +50,13 @@ header nav ul li {
 }
 /*background image + bounds set*/
 .hero{
+    margin-top:-40px;
     display: flex;
     flex-wrap:wrap;
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url('images/IMG_9395.JPG');
+    background-image: url('./assets/IMG_9395.JPG');
     background-size: cover;
     background-position: center;
 }
@@ -230,8 +231,9 @@ h2{
 /*sets flexbox*/
 #contact{
     display: flex;
-    flex-wrap: wrap;
+    flex: auto;
 }
+
 /*sets styling rules for the list*/
 #contact ul{
     list-style-type: none;
@@ -239,6 +241,7 @@ h2{
     font-family: monospace;
     font-size: 150%;
     text-align: center;
+    justify-content: center;
 }
 #contact ul li{
     display:inline-block;
@@ -253,6 +256,7 @@ h2{
     background-size: cover;
     text-align: center;
     width: 275px;
+    justify-content: center;
 }
 
 form {
@@ -396,6 +400,7 @@ footer{
     }
     header nav ul{
         font-size: 100%;
+        margin-bottom: 35px;
     }
     .hero h2{
         font-size: 150%;
