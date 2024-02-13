@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 a{
     color:whitesmoke;
 }
@@ -326,6 +327,16 @@ button:hover {
     margin-bottom: 10px;
     justify-content: center;
     font-size: 150%;
+}
+.contactInfoBC{
+    background-color: #022c0a;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+.anchor {
+    font-size: 50px;
+    margin-right: 50px;
 }
 footer{
     display: flex;
