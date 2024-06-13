@@ -389,6 +389,10 @@ footer {
     text-shadow: 3px 3px 15px rgb(250, 247, 250);
 }
 
+.margin{
+    margin: 0 5% 5% 5%;
+}
+
 .black {
     color:black;
 }
