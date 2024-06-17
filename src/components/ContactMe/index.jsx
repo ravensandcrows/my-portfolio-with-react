@@ -41,7 +41,7 @@ function ContactMe() {
 
   return (
     <section>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form name="contact" id="contact-form" onSubmit={handleSubmit} method="POST" netlify>
         <div>
           <label htmlFor="name">Name:</label>
           <input
