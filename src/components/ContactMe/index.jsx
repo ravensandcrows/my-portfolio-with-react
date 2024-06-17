@@ -41,7 +41,14 @@ function ContactMe() {
 
   return (
     <section>
-      <form name="contact" id="contact-form" onSubmit={handleSubmit} method="POST" netlify>
+      <form
+        name="contact v1"
+        id="contact-form"
+        method="POST"
+        data-netlify="true"
+        onSubmit={handleSubmit}
+      >
+        <input type="hidden" name="form-name" value="contact v1"></input>
         <div>
           <label htmlFor="name">Name:</label>
           <input
@@ -62,7 +69,7 @@ function ContactMe() {
         </div>
         <div>
           <label htmlFor="message">Message:</label>
-          <textarea 
+          <textarea
             name="message"
             rows="5"
             defaultValue={message}
@@ -75,7 +82,7 @@ function ContactMe() {
           </div>
         )}
         <div className="center">
-            <button type="submit">Submit</button>
+          <button type="submit">Submit</button>
         </div>
       </form>
     </section>
