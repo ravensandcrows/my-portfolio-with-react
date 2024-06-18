@@ -44,11 +44,11 @@ function ContactMe() {
       <form
         name="contact v1"
         id="contact-form"
-        method="POST"
+        method="post"
         data-netlify="true"
         onSubmit={handleSubmit}
       >
-        <input type="hidden" name="form-name" value="contact v1"></input>
+        <input type="hidden" name="contact v1" value="contact v1"></input>
         <div>
           <label htmlFor="name">Name:</label>
           <input
