@@ -38,17 +38,16 @@ function ContactMe() {
       console.log('Handle Form', formState);
     }
   };
-
   return (
     <section>
-      <form
-        name="contact v1"
-        id="contact-form"
-        method="post"
-        data-netlify="true"
-        onSubmit={handleSubmit}
+      <form 
+        name="contact v1" 
+        method="post" 
+        data-netlify="true" 
+        data-netlify-honeypot="bot-field"
+        onSubmit="submit"
       >
-        <input type="hidden" name="contact v1" value="contact v1"></input>
+        <input type="hidden" name="form-name" value="contact v1"></input>
         <div>
           <label htmlFor="name">Name:</label>
           <input
