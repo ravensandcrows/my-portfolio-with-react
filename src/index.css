@@ -14,6 +14,52 @@ header {
     background-color: #022c0a;
 }
 
+.resume-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-nav {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.resume-ul {
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 150%;
+    margin-bottom: 10%;
+}
+
+.resume-li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.resume-button {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: #022c0a;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
+
+.resume-button:hover {
+    background-color: white;
+    text-decoration: underline;
+    color: #022c0a;
+}
+
+.resume-download {
+    margin-left: 5%;
+    background-image: linear-gradient(to left, whitesmoke, #022c0a);
+    color: whitesmoke;
+    font-size: 200%;
+}
+
 /*Font info set*/
 h1 {
     display: inline-block;
@@ -28,6 +74,10 @@ header nav {
     margin-left: auto;
     margin-top: auto;
     color: whitesmoke;
+}
+
+.margin-top {
+    margin-top: 5%;
 }
 
 /*text styling*/
@@ -150,6 +200,51 @@ h2 {
     border-width: 8px;
 }
 
+.column-borderless {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 5px;
+}
+
+.resume-p {
+    font-size: 180%;
+    font-style: bold;
+    font-family: monospace;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    color: whitesmoke;
+    padding: .5%;
+    text-decoration: underline;
+    background-image: linear-gradient(to left, whitesmoke, #022c0a);
+}
+
+hr {
+    width: 75%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.proficiencies {
+    margin-left: 5%;
+    font-size: 150%;
+    font-style: italic;
+    font-family: monospace;
+    margin-bottom: 1%;
+    list-style-type: none;
+}
+
+.prof-items {
+    list-style-type: circle;
+    font-size: 150%;
+    font-family: monospace;
+    margin-left: 10%;
+}
+
+.prof-items li {
+    margin-bottom: 2%;
+}
 
 
 /*positions the photos and sets their bounds*/
@@ -356,22 +451,32 @@ button:hover {
 .my-2 {
     margin-top: var(--spacing-two);
     margin-bottom: var(--spacing-two);
-  }
+}
 
 
 .my-5 {
     margin-top: var(--spacing-five);
     margin-bottom: var(--spacing-five);
-  }
+}
 
-  ul.skills {
-    line-height: 2rem;
-  }
-  
-  ul.skills li {
+ul.skills {
+    line-height: 3rem;
+    margin-left: 15%;
+    font-size: 150%;
+    font-style: bold;
+}
+
+ul.skills li {
     list-style-type: circle;
-  }
-  
+}
+
+.exp {
+    list-style-type: none;
+    line-height: 0rem;
+    margin-left: 5%;
+    font-size: 90%;
+}
+
 
 footer {
     display: flex;
@@ -389,15 +494,29 @@ footer {
     text-shadow: 3px 3px 15px rgb(250, 247, 250);
 }
 
-.margin{
+.margin {
     margin: 0 5% 5% 5%;
 }
 
-.black {
-    color:black;
+.margin-left {
+    margin-left: 10%;
 }
 
-.error-text{
+.resume-h3 {
+    text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
+    font-family: monospace;
+    color: #022c0a
+}
+
+
+
+.black {
+    color: black;
+}
+
+.error-text {
     font-size: 30px;
     font-style: bold;
     background-color: red;
