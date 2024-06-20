@@ -45,34 +45,40 @@ function ContactMe() {
         method="post" 
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
-        onSubmit="submit"
+        // onSubmit="submit"
       >
         <input type="hidden" name="form-name" value="contact v1"></input>
         <div>
           <label htmlFor="name">Name:</label>
           <input
-            type="text"
             name="name"
+            id="name"
+            type="text"
             defaultValue={name}
             onBlur={handleChange}
+            autoComplete='on'
           />
         </div>
         <div>
           <label htmlFor="email">Email address:</label>
           <input
             type="email"
+            id="email"
             name="email"
             defaultValue={email}
             onBlur={handleChange}
+            autoComplete='on'
           />
         </div>
         <div>
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
+            id="message"
             rows="5"
             defaultValue={message}
             onBlur={handleChange}
+            autoComplete='on'
           />
         </div>
         {errorMessage && (
